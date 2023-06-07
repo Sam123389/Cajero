@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1 id="titulo">Cajero automatico</h1>
+    </div>
+    <section id="seccion-cuentas">
+        <h2>seleccione una cuenta</h2>
+        <select name="cuentas" id="cuenta-seleccionada">
+            <option value="Mali">Mali</option>
+            <option value="Gera">Gera</option>
+            <option value="Maui">Maui</option>
+        </select>
+        <button id="btn-cuenta-seleccionada">seleccionar</button>
+    </section>
+    <section id="seccion-clave">
+        <h2>ingrese clave</h2>
+        <input type="password" id="claveingresada">
+        <button id="btn-subir-clave">ingresar</button>
+        <div id ="mensaje-validacion"></div>
+    </section>
+    <section id="seccion-opciones">
+        <h2>opciones</h2>
+        <button id="btn-saldo">Consultar saldo</button>
+        <button id="btn-monto">Ingresar monto</button>
+        <button id="btn-retiro">Retirar monto</button>
+    </section>
+    <section id="consulta-saldo">
+        <h2>consulta saldo</h2>
+        <span id="saldo-actual"></span>
+        <button id="btn-volver-opciones1">volver</button>
+    </section>
+    <section id="ingresar-monto">
+        <h2>ingreso de monto</h2>
+        <input type="number" id="monto-ingresado">
+        <button id="btn-ingreso-monto">confirmar monto</button>
+        <div id ="mensaje-validacion-monto"></div>
+        <button id="btn-volver-opciones2">volver</button>
+    </section>
+    <section id="retiro-monto">
+        <h2>retiro de monto</h2>
+        <input type="number" id="monto-retirado">
+        <button id="btn-retiro-monto">Confirmar retiro</button>
+        <div id ="mensaje-validacion-retiro"></div>
+        <button id="btn-volver-opciones3">volver</button>
+    </section>
+    <section id="seccion-resultados">
+        <h2>resultados</h2>
+        <span id="resultado"></span>
+        <button id="btn-volver-opciones4">volver</button>
+    </section>
+    <script src="appp.js"></script>
+</body>
+</html>

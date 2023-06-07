@@ -1,0 +1,29 @@
+body {
+    background-color: #91F1D7 ;
+    font-family: 'Geologica', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 50vh;
+    margin: 0;
+  }
+  
+  #contenedor {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  #titulo {
+    margin-top: 100px;
+    background-color: #34A2CB ;
+    border-radius: 45%;
+    padding: 10px;
+  }
+  h2{
+    text-align: center;
+  }
+  
